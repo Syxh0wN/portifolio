@@ -63,18 +63,18 @@ export const globalStyles = globalCss({
 export const GlobalStyle: React.FC<GlobalStyleProps> = ({ children }) => {
   const theme = createTheme({
     colors: {
-      brand1: "#5C63ED",
-      brand2: "#7D82F1",
-      brand3: "#BEC1F8",
-      brand4: "#E7E8FC",
-      grey1: "#212529",
-      grey2: "#495057",
-      grey3: "#CED3D7",
-      grey4: "#F1F3F5",
-      grey5: "#F8F9FA",
-      grey6: "#DEE0FB",
-      whiteFixed: "#ffffff",
-      mode: "#ffffff",
+      brand1: "#4B4E6D", // Azul-marinho suave
+      brand2: "#9C9EB9", // Cinza-azulado claro
+      brand3: "#D0D1D8", // Cinza claro
+      brand4: "#ECECF6", // Cinza muito claro
+      grey1: "#212529", // Cinza escuro (texto principal)
+      grey2: "#495057", // Cinza médio (texto secundário)
+      grey3: "#CED3D7", // Cinza claro (bordas e separadores)
+      grey4: "#F1F3F5", // Cinza bem claro (fundo de seções)
+      grey5: "#F8F9FA", // Cinza quase branco (fundo alternativo)
+      grey6: "#DEE0FB", // Cinza azulado (links e destaques)
+      whiteFixed: "#ffffff", // Branco fixo
+      mode: "#ffffff", // Modo de cor (branco, neste caso)
     },
     sizes: {
       container: "75rem",
